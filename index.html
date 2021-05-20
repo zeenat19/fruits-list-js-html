@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style .css">
+    <script type="text/javascript">
+        function funClick(){
+        var x=document.getElementById("my_para")
+        var array=["mangoes","banana","grapes","apple","pine apple","lichi","stauberry"]
+        var i;
+        var text="";
+        for (i=0;i<array.length;i++){
+            text+=array[i]+"<br>";
+        }
+            x.innerHTML=text
+        }
+    </script>
+</head>
+<body>
+        <p id="my_para"> this is the list of fruit.</p>
+        <button type="button" onclick="funClick()">click me</button>
+        
+</body>
+</html>

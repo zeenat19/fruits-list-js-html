@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+ 
+}
+body button{
+    color:#fff;
+    background: linear-gradient(45deg,skyblue,#ff77cd,pink,red);
+    border-radius: 5px;
+    font-size: 20px;
+}
+body p{
+    font-size: 35px;
+    color: rgb(42, 155, 221);
+}
